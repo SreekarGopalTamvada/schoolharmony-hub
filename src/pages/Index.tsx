@@ -11,7 +11,7 @@ const Index = () => {
         {/* Header */}
         <div className="animate-fade-in">
           <h1 className="text-3xl font-bold text-foreground">Welcome back, Admin</h1>
-          <p className="text-muted-foreground mt-1">Here's what's happening at Lincoln High School today.</p>
+          <p className="text-muted-foreground mt-1">Here's what's happening at Sreekar vidya mandir today.</p>
         </div>
 
         {/* Stats Grid */}
