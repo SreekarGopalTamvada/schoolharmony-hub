@@ -63,7 +63,7 @@ export function Sidebar({ isOpen, onToggle }: SidebarProps) {
             </div>
             {isOpen && (
               <span className="font-semibold text-sidebar-foreground text-lg animate-fade-in">
-                EduAdmin
+                Sreekar's APP
               </span>
             )}
           </div>
