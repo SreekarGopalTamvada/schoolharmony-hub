@@ -3,6 +3,7 @@ import { StatCard } from "@/components/dashboard/StatCard";
 import { AttendanceChart } from "@/components/dashboard/AttendanceChart";
 import { RecentActivity } from "@/components/dashboard/RecentActivity";
 import { Users, GraduationCap, TrendingUp, CalendarDays } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
@@ -59,6 +60,24 @@ const Index = () => {
         <div className="w-full">
           <RecentActivity />
         </div>
+        {/* Quick Actions Section */}
+        <div className="animate-fade-in">
+          <h2 className="text-2xl font-semibold mb-4">Quick Actions</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">  
+           <Button variant="outline" className="w-full">
+              Add New Student
+            </Button>
+            <Button variant="outline" className="w-full">
+              Schedule Event
+            </Button>
+            <Button variant="outline" className="w-full">
+              Generate Report
+            </Button>
+            <Button variant="outline" className="w-full">
+              Send Announcement
+            </Button>
+          </div>
+        </div>    
       </div>
     </DashboardLayout>
   );
