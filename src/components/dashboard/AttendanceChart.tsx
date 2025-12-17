@@ -20,7 +20,7 @@ export function AttendanceChart() {
       <CardHeader className="flex flex-row items-center justify-between pb-2">
         <div className="space-y-1">
           <CardTitle className="text-xl font-semibold">Attendance Trends</CardTitle>
-          <CardDescription>Weekly attendance rate over the past 8 weeks</CardDescription>
+          <CardDescription>Weekly class participation over the past 8 weeks</CardDescription>
         </div>
         <div className="flex items-center gap-3">
           <Badge variant="secondary" className="bg-success/10 text-success border-0 font-medium">
@@ -65,7 +65,7 @@ export function AttendanceChart() {
                   borderRadius: '12px',
                   boxShadow: '0 10px 30px -10px hsl(var(--foreground) / 0.1)'
                 }}
-                formatter={(value: number) => [`${value}%`, 'Attendance Rate']}
+                formatter={(value: number) => [`${value}%`, 'Class Participation']}
                 labelStyle={{ color: 'hsl(var(--foreground))', fontWeight: 600 }}
               />
               <Area

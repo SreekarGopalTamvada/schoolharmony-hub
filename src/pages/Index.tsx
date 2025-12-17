@@ -34,7 +34,7 @@ const Index = () => {
             iconColor="info"
           />
           <StatCard
-            title="Attendance Rate"
+            title="Class Participation"
             value="92%"
             change="+3% vs last week"
             changeType="positive"
