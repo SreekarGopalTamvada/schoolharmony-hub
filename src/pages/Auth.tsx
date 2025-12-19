@@ -110,8 +110,8 @@ export default function Auth() {
           <div className="h-16 w-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-4">
             <GraduationCap className="h-8 w-8 text-primary" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground">Lincoln High School</h1>
-          <p className="text-muted-foreground">Learning Management System</p>
+          <h1 className="text-2xl font-bold text-foreground">Dev Sir's HomeSchool</h1>
+          <p className="text-muted-foreground">Some Example LMS Vishnu sir</p>
         </div>
 
         <Card className="shadow-xl border-border/50">
